@@ -1,0 +1,171 @@
+/**** BASE STYLES ****/
+
+body {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+/**** GRID ****/
+
+.full {
+    width: 1490px;
+    margin: 0 auto;
+    overflow: auto;  
+}
+
+.half {
+    width: 300px;
+    float:left;
+}
+
+.half-nav {
+    width: 900px;
+    float:right;
+}
+
+/**** HEADER ****/
+
+header{
+    height: 110px;
+    width: 1490px;
+    margin: 0 14px;
+    border-bottom: 5px solid #77a466;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 28px 0px;
+}
+
+h1 span {
+    color:#77a466;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0px;
+}
+
+header nav ul {
+    margin: 0px;
+    padding: 10px;
+}
+
+header nav ul li {
+    text-transform: uppercase;
+    display:inline;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#77a466;
+    font-weight: 600;
+}
+
+/**** TOP ****/
+
+.top {
+    margin: 0 auto;
+    clear: both;
+    width: 1490px
+}
+
+.image {
+    border-bottom: 5px solid #77a466;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; */
+    width: 1490x;
+    height: 280px;
+    margin-left: 0px;
+    background-image: url(../img/hero.png);
+    background-size: cover;
+}
+
+.about {
+    margin: 0;
+    float: left;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    color: #77a466;
+}
+
+.about p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/**** BOTTOM ****/
+
+.one, .two, .three {
+    width: 390px;
+    height: auto;
+    float: left;
+    border-top: 1px solid #eee;
+}
+
+.one {
+    margin-left: 15px;
+}
+
+.one h3 {
+    padding: 10px 0;
+}
+
+.one p {
+    color: #77a466;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+    color: #77a466;
+}
+
+.two {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    margin-left: 50px;
+}
+.two, .three {
+    padding: 10px 30px;
+}
+
+.review {
+    color: #333;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/**** FOOTER  ****/
+
+footer {
+    text-align: center;
+    height: 50px;
+    clear: both;
+    margin: 0 auto;
+    border-top: 1px solid #eee;
+}
+
+footer span {
+    font-family: 'Galada', cursive;
+    color: #77a466;
+}

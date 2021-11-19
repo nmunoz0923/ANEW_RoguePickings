@@ -67,6 +67,13 @@ header nav ul li a {
     font-weight: 600;
 }
 
+header nav ul li a:hover {
+    /* text-decoration: none; */
+    /* font-size: 18px; */
+    color:#a69c8a;
+    /* font-weight: 600; */
+}
+
 /**** TOP ****/
 
 .top {
